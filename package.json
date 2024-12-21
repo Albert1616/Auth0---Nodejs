@@ -1,0 +1,36 @@
+{
+  "name": "auth0---nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon",
+    "build": "npx tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/express": "^5.0.0",
+    "@types/express-session": "^1.18.1",
+    "@types/node": "^22.10.2",
+    "@types/passport": "^1.0.17",
+    "@types/passport-auth0": "^1.0.9",
+    "nodemon": "^3.1.9",
+    "prisma": "^6.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.1.0",
+    "@quixo3/prisma-session-store": "^3.1.13",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "passport": "^0.7.0",
+    "passport-auth0": "^1.4.4"
+  }
+}
